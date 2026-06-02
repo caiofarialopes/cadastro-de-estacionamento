@@ -68,7 +68,7 @@ Maria;Onix;XYZ9876;11888888888
 
 ---
 
-## ▶️ Como executar
+## Como executar
 
 1. Baixe o arquivo `estacionamento.c`
 
