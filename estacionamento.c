@@ -30,8 +30,9 @@ void criacadastro(){
         pes.nome[strcspn(pes.nome, "\n")] = '\0';
         pes.modelo[strcspn(pes.modelo, "\n")] = '\0';
         pes.placa[strcspn(pes.placa, "\n")] = '\0';
+        pes.telefone[strcspn(pes.telefone, "\n")] = '\0';
 
-        fprintf(arquivo, "%s;%s;%s;%s;\n", pes.nome, pes.modelo, pes.placa, pes.telefone);
+        fprintf(arquivo, "%s;%s;%s;%s\n", pes.nome, pes.modelo, pes.placa, pes.telefone);
 
         printf("\n\nCadastro criado!\n");
 
@@ -162,7 +163,7 @@ do{
         break;
     }
 
-} while(op != 3);
+} while(op != 4);
 
     return 0;
 }
